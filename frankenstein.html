@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>ESTA VIVO</title>
+
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/supercuadros.css">
+	<link rel="stylesheet" href="css/parrafos.css">
+	<link rel="stylesheet" href="css/cabecera.css">
+	<link rel="stylesheet" href="css/miembros.css">
+	<link rel="stylesheet" href="css/cool.css">
+	<link rel="stylesheet" href="css/galer.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="fonts.css">
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="shorcut icon" href="mario.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery.min.js" charset="UTF-8"></script>
+
+    <script src="jquery-latest.js"></script>
+    <script src="arriba.js"></script>
+
+    <script>
+  	$(function(){
+
+  $('a[href*=#]').click(function() {
+
+  if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+  	&& location.hostname == this.hostname) {
+  		var $target = $(this.hash);
+  		$target = $target.length && $target || $('[name=' + this.hash.slice(1) + ']');
+  			if ($target.length) {
+  				var targetOffset = $target.offset().top;
+  				$('html,body').animate({scrollTop: targetOffset}, 1000);
+  				return false;
+  			}
+  		}
+  	});
+  });
+  	
+  </script>
+</head>
+<body id="arriba">
+	<span class="ir-arriba icon-arrow-up"></span>
+<header>
+  	<input type="checkbox" id="check">
+  	<label for="check" class="checkbtn">
+  		<i class="fas fa-bars"></i>
+  	</label>
+  	<label class="logo">PLAY OFF</label>
+
+  	<ul>
+  		<li><a href="#presentacion">Presentacion</a></li>
+  		<li><a href="#equipo">Nuestro equipo</a></li>
+  		<li><a href="#galeria">Galeria</a></li>
+  		<li><a href="#cuenta">Acceder</a></li>
+  	</ul>
+  </header>
+<div id="slides">		
+<section>
+  	<div class="text-content">BIENVENIDO</div>
+  	    <div class="buscar">
+        <div class="box">
+            <div class="search-area">
+                <input type="text" placeholder="¿Que desea buscar?">
+                <div class="icon"><i class="fa fa-search"></i></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+    <script>
+        
+        $(".fa-search").click(function(){
+            $(".icon").toggleClass("active");
+             $("input[type=text]").toggleClass("active");
+        });
+
+    </script>
+    <div class="supercuadro" id="presentacion">
+            <h1>Quienes Somos</h1>
+    <div class="parrafo1">
+        <h1>Nuestra mision</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu aliquet leo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam eget massa et malesuada. Proin tristique, risus sit amet volutpat varius, libero eros ullamcorper lorem, sit amet bibendum ex lectus eu risus. Proin lectus arcu, dapibus vitae elementum ut, tempus id massa. Donec a augue libero. Morbi ac vestibulum erat, aliquam tempor ex. Mauris diam mauris, ullamcorper ut accumsan non, imperdiet non urna. Proin augue ante, pulvinar vel turpis dignissim, tempor sodales enim.</p>
+        <img src="img/barcos.jpeg" alt="" class="ima">
+      </div>
+    <div class="parrafo2">
+        <h1>¿Que ofrecemos?</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu aliquet leo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam eget massa et malesuada. Proin tristique, risus sit amet volutpat varius, libero eros ullamcorper lorem, sit amet bibendum ex lectus eu risus. Proin lectus arcu, dapibus vitae elementum ut, tempus id massa. Donec a augue libero. Morbi ac vestibulum erat, aliquam tempor ex. Mauris diam mauris, ullamcorper ut accumsan non, imperdiet non urna. Proin augue ante, pulvinar vel turpis dignissim, tempor sodales enim.</p>
+        <img src="img/bote.jpeg" alt="" class="ima">
+      </div>
+    <div class="parrafo3">
+        <h1>¿Como contactarnos?</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu aliquet leo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam eget massa et malesuada. Proin tristique, risus sit amet volutpat varius, libero eros ullamcorper lorem, sit amet bibendum ex lectus eu risus. Proin lectus arcu, dapibus vitae elementum ut, tempus id massa. Donec a augue libero. Morbi ac vestibulum erat, aliquam tempor ex. Mauris diam mauris, ullamcorper ut accumsan non, imperdiet non urna. Proin augue ante, pulvinar vel turpis dignissim, tempor sodales enim.</p>
+        <img src="img/pal selfie.jpeg" alt="" class="ima">
+    </div>
+</div>
+    <div class="supercuadro2" id="equipo">
+            <h1>Nuestro equipo</h1>
+    <div class="gente">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-4">
+                <div class="card mx-30">
+                  <img src="https://i.postimg.cc/WzjcC7Hb/1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">
+                        Julia Thorn</h5>
+                        <h6>Junior Developer</h6>
+                        <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse amet repellat, eaque aliquid similique eius alias facilis quisquam, ipsa dolor.</p>
+                        <div class="socials">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-youtube"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card mx-30">
+                  <img src="https://i.postimg.cc/mgKqKwcf/2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">
+                        Martha David</h5>
+                        <h6>UI / UX Designer</h6>
+                        <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse amet repellat, eaque aliquid similique eius alias facilis quisquam, ipsa dolor.</p>
+                        <div class="socials">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-youtube"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card mx-30">
+                  <img src="https://i.postimg.cc/Y9zsGBdM/3.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                        Laura Chedd</h5>
+                        <h6>Full-Stack Developer</h6>
+                        <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse amet repellat, eaque aliquid similique eius alias facilis quisquam, ipsa dolor.</p>
+                        <div class="socials">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-youtube"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+    <div class="supercuadro3" id="galeria">
+    	<h1>Galeria</h1>
+    	<div class="galer">
+
+        <div class="img-area">
+            <span></span>
+            <img src="img/11.jpg" alt="">
+        </div>
+        <div class="img-area">
+            <span></span>
+            <img src="img/12.jpg" alt="">
+        </div>
+        <div class="img-area">
+            <span></span>
+            <img src="img/13.jpg" alt="">
+        </div>
+        <div class="img-area">
+            <span></span>
+            <img src="img/14.jpg" alt="">
+        </div>
+        <div class="img-area">
+            <span></span>
+            <img src="img/15.jpg" alt="">
+        </div>
+        <div class="img-area">
+            <span></span>
+            <img src="img/16.jpg" alt="">
+        </div>
+    </div>
+</div>
+	<div class="supercuadro4" id="cuenta">
+		<h1>Acceder a tu cuenta</h1>
+		<div class="contenedor">
+        <p class="header">Aviso N°1<span>+</span></p>
+        <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lectus augue, vehicula eget turpis at, ultrices tempor diam. Nunc laoreet, mi ut faucibus varius, est nisi tempor lacus, a tincidunt mauris sapien vel lorem. Vivamus aliquet non ex at consequat. Sed et velit a sem elementum aliquet quis laoreet libero. Sed sapien lorem, tempus et magna in, mattis consectetur mi. Nulla sodales viverra augue, vitae sollicitudin justo porta vitae. </p>
+        <p class="header">Aviso N°2<span>+</span></p>
+        <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lectus augue, vehicula eget turpis at, ultrices tempor diam. Nunc laoreet, mi ut faucibus varius, est nisi tempor lacus, a tincidunt mauris sapien vel lorem. Vivamus aliquet non ex at consequat. Sed et velit a sem elementum aliquet quis laoreet libero. Sed sapien lorem, tempus et magna in, mattis consectetur mi. Nulla sodales viverra augue, vitae sollicitudin justo porta vitae. </p>
+        <p class="header">Aviso N°3<span>+</span></p>
+        <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lectus augue, vehicula eget turpis at, ultrices tempor diam. Nunc laoreet, mi ut faucibus varius, est nisi tempor lacus, a tincidunt mauris sapien vel lorem. Vivamus aliquet non ex at consequat. Sed et velit a sem elementum aliquet quis laoreet libero. Sed sapien lorem, tempus et magna in, mattis consectetur mi. Nulla sodales viverra augue, vitae sollicitudin justo porta vitae. </p>
+    </div>  
+    <script src="js/script.js"></script>
+		<div class="login">
+        <div id="particles-js"></div>
+        <div class="icon-area"><span><i class="fa fa-users"></i></span></div>
+        <div class="login-area">
+            <input type="text" placeholder="Tu correo">
+            <input type="password" placeholder="Tu contraseña">
+            <div class="btn-area">Acceder a tu cuenta</div>
+        </div>
+            <div class="link-area"><a href="#">No posee una cuenta?</a></div>
+        </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/app.js"></script>
+</div>
+<div id="pie">
+        <div class="box" >
+        <div class="single-box">
+            <i class="fa fa-facebook" ></i>
+        </div>
+        <div class="single-box">
+            <i class="fa fa-twitter"></i>
+        </div>
+        <div class="single-box">
+            <i class="fa fa-youtube"></i>
+        </div>
+        <div class="single-box">
+            <i class="fa fa-pinterest"></i>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

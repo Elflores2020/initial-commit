@@ -1,0 +1,59 @@
+
+.supercuadro3 h1{
+    font-family: khaleefa;
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+    color: #000;
+    letter-spacing: 10px;
+}
+
+.galer{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.img-area{
+    position: relative;
+    width: 47%;
+    transition: .5s;
+    overflow:hidden;
+    float: left;
+    margin: 0 15px;
+    text-align: center;
+    margin:15px;
+}
+
+.img-area img{
+    width: 100%;
+    height: 100%;
+}
+.img-area:hover{
+    box-shadow: 0 30px 35px rgba(0,0,0,0.7);
+}
+.img-area span{
+    position: absolute;
+    top:0;
+    left: -110%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.3);
+    transition: .5s;
+    transform: skewX(10deg);
+}
+.img-area:hover span{
+    left: 110%;
+}
+
+@media (max-width: 1649px){
+  .img-area{
+    position: relative;
+    width: 90%;
+    transition: .5s;
+    overflow:hidden;
+    float: left;
+    margin: 0 15px;
+    text-align: center;
+    margin:15px;
+  }
+}

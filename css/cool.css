@@ -1,0 +1,54 @@
+.text-content {
+  background-image: url(../img/1.JPG);
+  background-attachment: fixed;
+  background-position: 20% 20%;   
+  background-repeat: repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 250px; 
+  padding-top:350px;
+  padding-bottom:0px;
+  font-weight: bold;
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text;
+  white-space: nowrap; 
+  box-shadow: 0 30px 35px rgba(0,0,0,0.2);
+} 
+
+@media (max-width: 1575px){
+  .text-content {
+    font-size: 200px;
+  }
+}
+
+@media (max-width: 1413px){
+  .text-content {
+    font-size: 170px;
+  }
+}
+
+@media (max-width: 1247px){
+  .text-content {
+    font-size: 160px;
+  }
+}
+
+@media (max-width: 1141px){
+  .text-content {
+    font-size: 130px;
+  }
+}
+
+@media (max-width: 1025px){
+  .text-content {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 898px){
+  .text-content {
+    font-size: 70px;
+  }
+}

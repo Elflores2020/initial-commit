@@ -1,0 +1,136 @@
+.supercuadro{
+  margin-top: 5px;
+}
+
+.supercuadro2{
+  height: auto;
+}
+
+.supercuadro3{
+  padding-top:80px;
+}
+
+.supercuadro, .supercuadro2{
+  background-image: url(../img/fondo1.jpg);
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  padding:120px;
+  width:100%;
+  margin-bottom: 5px;
+}
+
+.supercuadro3 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 5px;
+  height: 1200px;
+}
+
+.supercuadro4{
+  width:100%;
+  padding-top: 190px;
+  padding-bottom: 190px;
+}
+
+.supercuadro2{
+  background-image: url(../img/fondo2.jpg);
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+}
+
+.supercuadro3{
+  background-image: url(../img/fondo3.jpg);
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+}
+
+.supercuadro4{
+  background-image: url(../img/fondo4.jpeg);
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+}
+
+.supercuadro h1, .supercuadro2 h1, .supercuadro4 h1{
+  width: 100%;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 40px;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+.supercuadro4 h1{
+  color: #000;
+}
+
+@media (max-width: 1649px){
+  .supercuadro3 {
+     height: 3500px;
+  }
+}
+@media (max-width: 1577px){
+  .supercuadro3 {
+     height: 3300px;
+  }
+}
+@media (max-width: 1463px){
+  .supercuadro3 {
+     height: 3100px;
+  }
+}
+@media (max-width: 1377px){
+  .supercuadro3 {
+     height: 2900px;
+  }
+}
+@media (max-width: 1271px){
+  .supercuadro3 {
+     height: 2700px;
+  }
+}
+@media (max-width: 1191px){
+  .supercuadro3 {
+     height: 2600px;
+  }
+}
+@media (max-width: 1097px){
+  .supercuadro3 {
+     height: 2400px;
+  }
+}
+@media (max-width: 987px){
+  .supercuadro3 {
+     height: 2200px;
+  }
+}
+@media (max-width: 880px){
+  .supercuadro3 {
+     height: 2000px;
+  }
+}
+@media (max-width: 759px){
+  .supercuadro3 {
+     height: 1800px;
+  }
+}
+@media (max-width: 645px){
+  .supercuadro3 {
+     height: 1600px;
+  }
+}
+@media (max-width: 555px){
+  .supercuadro3 {
+     height: 1400px;
+  }
+}
+@media (max-width: 487px){
+  .supercuadro3 {
+     height: 1300px;
+  }
+}
+
+

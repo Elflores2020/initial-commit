@@ -1,0 +1,72 @@
+.parrafo1, .parrafo2, .parrafo3{
+  width: 31%;
+  height: auto;
+  line-height: 23px;
+  padding: 20px;
+  text-align: center;
+  margin:15px;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  color: #000;
+  display:inline-block;
+  background:rgba(255,255,255,.8);
+  box-shadow: 0 30px 35px rgba(0,0,0,0.7);
+}
+
+.parrafo1 h1, .parrafo2 h1, .parrafo3 h1{
+  color: #000;
+  text-align: left;
+  font-size: 25px;
+  padding: 20px 30px 10px 30px;
+}
+
+.parrafo1 p, .parrafo2 p, .parrafo3 p{
+  text-align: left;
+  padding: 10px 50px 10px 50px;
+}
+
+.ima{
+  width:90%;
+  border: 10px solid #000;
+  margin-bottom: 10px;
+}
+
+@media(max-width: 1639px){
+  .parrafo1, .parrafo2, .parrafo3{
+    width:30%;
+  }
+}
+
+@media(max-width: 1229px){
+  .parrafo1, .parrafo2{
+    width:46%;
+  }
+  .parrafo3{
+    width:95.5%;
+}
+
+@media(max-width: 1076px){
+  .parrafo1, .parrafo2{
+    width:45%;
+  }
+  .supercuadro, .supercuadro2{
+    padding:100px;
+  }
+}
+@media(max-width: 947px){
+  .parrafo1, .parrafo2, .parrafo3{
+    width:95%;
+  }
+}
+
+@media(max-width: 947px){
+  .supercuadro, .supercuadro2{
+    padding:80px;
+  }
+}
+
+@media(max-width: 561px){
+  .supercuadro, .supercuadro2{
+    padding:10px;
+  }
+}
